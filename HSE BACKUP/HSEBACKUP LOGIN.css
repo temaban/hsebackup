@@ -1,0 +1,67 @@
+h1, h3{
+    text-align: center;
+    font-weight:500;
+    font-family: sans-serif;
+}
+span{
+    text-shadow: 2m 2m 4m #000;
+    animation:  color 8s infinite;
+    text-align: center;
+}
+h1, span{
+    align-items: center;
+    text-align: center;
+}
+@keyframes color{
+    0% {color: b;}
+    10% {color: rgb(83, 83, 245);}
+    20% {color: rgb(243, 174, 24);}
+    30% {color: rgb(255, 0, 13);}
+    40% {color: rgb(33, 235, 141);}
+    50% {color: rgb(58, 155, 139);}
+    60% {color: rgba(201, 18, 238, 0.959);}
+    70% {color: rgb(255, 255, 255);}
+    80% {color: rgb(231, 228, 19);}
+    90% {color: rgb(13, 70, 16);}
+    100% {color: orangered;}
+}
+h1:nth-child(span){
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+body{
+ background-color: #bbbbbb;
+}
+.form-div{
+    margin-top: 10%;
+    width: 30em;
+    height: 50vh;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    overflow: hidden;
+    margin-left: 30%;
+    background-color: rgb(242, 240, 250);
+    border: none;
+    box-shadow: 10px 20px 30px rgb(255, 255, 255);
+}
+li{
+    list-style: none;
+}
+.submit{
+    transition: all ease-in-out 160ms;
+    cursor: pointer;
+    size: 10%;
+   align-items: center;
+   background-color: rgb(240, 159, 8);
+   margin-left: 45%;
+   border: none;
+}
+.submit:hover{
+    transform: scale(1.2);
+    box-shadow: 10px 20px 30px rgb(7, 7, 7);
+    opacity: 1;
+}
+.creat-one{
+    text-align: center;
+}

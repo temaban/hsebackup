@@ -1,0 +1,93 @@
+nav{
+    position: static;
+    overflow: hidden;
+    background-color: #909090;
+    padding: 0;
+    display: block;
+}
+h1{
+    color: ivory;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 100;
+    text-align: center;
+    margin: 10% 10%;
+}
+.first-p{
+    text-align: center;
+    color: #15112D;
+    font-weight: 300;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: linear-gradient(to right, #ffffff, #909090, rgb(42, 42, 42));
+    background-size: 400% 400%;
+    animation: animate-background 10s infinite ease-in-out;
+}   
+    @keyframes animate-background{
+        0%{
+            background-position: 0 50%;
+        }
+        50%{
+            background-position: 100% 50%;
+        }
+        100%{
+            background-position: 0 50%;
+        }
+
+    }
+.card{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background: F1153B;
+    width: 300px;
+    background: #15112D;
+    border-radius: 26px;
+    overflow: hidden;
+}
+.description{
+    background: transparent;
+    border-radius: 26px;
+    padding: 40px;
+    z-index: 2;
+    transition: all 0.5s ease-in-out;
+}
+.circle-top, .circle-bottom{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #72B01D;
+    border-radius: 50%;
+    transition: all 0.5s ease-in-out;
+}
+.circle-top{
+    top: -10px;
+    left: -10px;
+}
+.circle-bottom{
+    bottom: -10px;
+    right: -10px;
+}
+.card:hover .circle-top, .card:hover .circle-bottom{
+    transform: scale(12);
+}
+.card:hover .description p, .card:hover .description h3{
+    color: #232323;
+}
+.permit-types{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 100px;
+}
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    color: antiquewhite;
+}
+P{
+    color: antiquewhite;
+}
