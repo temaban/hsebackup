@@ -1,0 +1,159 @@
+body{
+    background-color: #274C77;
+    }
+ h1{
+    font-family: jua;
+        text-transform: uppercase;
+        color: #fff;
+        position: absolute;
+        left: 50%;
+        top: 10%;
+        transform: translate(-50%, -50%);
+        max-width: 90%;
+        width: auto;
+        height: auto;
+        font-size: 13vw;
+        
+    }
+ .top{
+        display: flex;
+        justify-content: space-between;
+        top: 15%;
+        font-size: x-small;
+        color: #fff;
+        transform: translate(70%, 100%);
+        max-width: 40%;
+        width: auto;
+        height: auto;
+        margin-top: 30%;
+    } 
+ .services, .testimonials, .contact {
+    margin-left: 0;
+    }
+ .image-girl-2{
+       margin-top: 13%;
+       height: 300px; 
+       width: 2fr;
+       background-color: rgb(46, 88, 136);
+    }
+ h2{
+       font-family: jua;
+       font-size: 5vw;
+       color: #fff;
+   }
+ h3{
+       font-size: x-small;
+       overflow: wrap;
+       color: #fff;
+   }
+ .objective-div{
+       width: auto;
+       margin-left: 55%;  
+       position: absolute;
+       margin-top:-10%;
+    }
+ #statistics{
+        display:grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+
+    
+     }
+ .satisfied-clients, .safety-audits, .office-intergrations{
+       margin-top: 20%;
+       height: 300px;
+       background-color: rgb(46, 88, 136);
+       border-radius: 4%;
+    }
+ .people-walking{
+       margin-top: 13%;
+       height: 300px; 
+       width: 2fr;
+       background-color: rgb(46, 88, 136);
+       border-radius: 2%;
+   }
+   /* section ment for testimonials */
+ #testimony{
+     display:flex;
+    }
+ .first-testimony, .second-testimony{
+      margin-top: 13%;
+      height: 350px ; 
+      background-color: rgb(46, 88, 136);
+      width: 40%;
+      border-radius: 3%;
+      margin-left: 7%;
+    }
+ .testimonial-image, .testimonial-image-2{
+      height: 40%;
+      margin: 9%;
+      background-color: #274C77;
+      border-radius: 3%;
+    }
+ .testimonials-text, .testimonials-text-2{
+      align-items: center;
+      font-size: x-small;
+      color: #fff;
+      margin-top: 30%;
+      margin-left:9% ;
+      margin-right:9% ;
+   }
+ .testimonial-name-1, .testimonial-name-2{
+      font-weight: bold;
+      font-size: x-small;
+      color: #fff;
+      text-align: center;
+      overflow: hidden;
+   }
+ /* section ment for the "get-started" */
+  h4{
+    font-family: jua;
+    color: #fff;
+    max-width: 90%;
+    width: auto;
+    height: auto;
+    font-size: 6vw;
+    text-align: center;
+    margin-top: 25%;
+  }
+ .get-started-text{
+    color: #fff;
+    font-size: small;
+    text-align: center;
+    margin-top: 15%;
+  }
+ button{
+    margin-top: 15%;
+    background-color:#f6f8fa ;
+    border: none;
+    border-radius: 5%;
+    height: auto;
+    width: 30%;
+    margin-left: 35%;
+    margin-bottom: 30%;
+  }
+  button:hover{
+   background-color: #f5a623 !important;
+  }
+ /* section ment for the footer */
+  .footer-main{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 5px;
+   }
+ .more{
+    height: 150px;
+    border-radius: 4%;
+    text-align: center;
+    color: #fff;
+    font-size: small;
+  }
+ .alright{
+    width: auto;
+    height: auto;
+    font-family: "Zilla Slab", "Zilla Slab Placeholder", serif;
+    color: #ffffff;
+    font-size: small;
+    text-align: center;
+    overflow: visible;
+  }
